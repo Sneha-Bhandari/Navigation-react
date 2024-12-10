@@ -30,7 +30,9 @@ const Header = () => {
       
       <Link to="/about"> About</Link>
       
-      <Link to="/contact"> Contect</Link>
+      <Link to="/contact"> Contact</Link>
+
+      <Link to="/demo">Demo</Link>
 
     <div className='flex gap-4'>
       <button onClick={()=>{

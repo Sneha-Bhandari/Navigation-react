@@ -8,6 +8,7 @@ import{Routes, Route} from 'react-router-dom'
 import Contact from './Pages/Contact'
 import Home from './Pages/Home'
 import About from './Pages/About'
+import Demo from './Pages/Demo_form'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
     <Route path='/' element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
+    <Route path='/demo' element={<Demo/>}/>
 
    </Routes>
   
