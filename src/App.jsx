@@ -9,6 +9,7 @@ import Contact from './Pages/Contact'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Demo from './Pages/Demo_form'
+import Form from './Pages/Form'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/demo' element={<Demo/>}/>
+    <Route path='/form' element={<Form/>}/>
 
    </Routes>
   
