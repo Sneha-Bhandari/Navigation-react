@@ -1,38 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
 const Home = () => {
-
-  
-
-//   const [abc, setAbc]= useState(0)
-// function Increment(){
-// setAbc(abc+1)
-// }
-//  function Decrement(){
-// const result= (abc-1);
-// if (result<0){
-//   alert("Number less than 0 is not accepted")
-// }else{
-//   setAbc(abc-1);
-// }
-// }
-
-//   return (
-//     <div className='flex gap-6 p-5'>
-//       {
-//       abc
-//        }
-     
-     
-//     <button onClick={()=> Increment()} className='bg-green-200 h-12 w-36 rounded-md'>Increment</button>
-//     <button onClick={()=> Decrement()} className='bg-red-500 h-12 w-36 rounded-md'>Decrement</button>
-//    </div>
-  
-//   )
-
-
-// smoothing the slides using usestate
-
 const[abc, setAbc]= useState(false)
 function CheckBoolean(){
   setAbc(!abc);
