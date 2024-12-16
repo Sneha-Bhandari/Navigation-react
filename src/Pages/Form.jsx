@@ -43,22 +43,22 @@ const Forms = () => {
       </div> */}
 
       <Formik  >
-        <Form className="w-1/2 h-1/2 rounded-3xl flex flex-col items-center justify-center bg-gradient-to-t from-blue-400 to-yellow-200">
+        <Form className="w-fit h-fit  px-10 py-3 rounded-3xl flex flex-col items-center justify-center bg-gradient-to-t from-stone-300 to-blue-300">
           <div>
-            <h1 className="font-medium text-3xl">Login</h1>
+            <h1 className="font-medium text-4xl text-blue-700 gap-6 ">Login</h1>
           </div>
           <div className="  flex flex-col gap-8  rounded-md">
           <div className=" flex flex-col w-full gap-2  ">
             {form.map((val, i) => {
               return (
-                <div key={i} className="flex flex-col gap-2">
+                <div key={i} className="flex flex-col px-1 gap-1 rounded-sm">
                   {val.name}
-                  <Field className="outline-none border w-full " type={val.type} placeholder={val.placeholder} />
+                  <Field className="outline-none border bg-gray-200 px-2 w-full " type={val.type} placeholder={val.placeholder} />
                 </div>
               );
             })}
             </div>
-          <button type="submit" className="bg-red-200 w-fit px-2 py-2 font-semibold rounded-lg  ">Submit </button>
+          <button type="submit" className="bg-blue-400  px-2 py-2 font-semibold rounded-lg ">Submit </button>
 
           </div>
         </Form>
